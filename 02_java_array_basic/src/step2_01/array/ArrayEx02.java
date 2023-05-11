@@ -2,8 +2,6 @@ package step2_01.array;
 
 import java.util.Arrays;
 
-import jdk.nashorn.api.tree.ForInLoopTree;
-
 public class ArrayEx02 {
 
 	public static void main(String[] args) {
