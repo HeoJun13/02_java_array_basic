@@ -40,18 +40,18 @@ public class ArrayEx18_정답예시 {
 		int[] p1   = {0, 0, 0, 0, 0, 0, 0, 0};
 		int[] p2   = {0, 0, 0, 0, 0, 0, 0, 0};
 		
-		int turn = 0;
+		int turn = 0; // 턴
 		
-		int idx1 = 0;	
-		int idx2 = 0;
+		int idx1 = 0;	// 1p
+		int idx2 = 0;	// 2p
 		
 		p1[idx1] = 1;	
-		p2[idx2] = 2;
+		p2[idx2] = 2;	
 		
 		int win1 = 0;	
 		int win2 = 0;
 		
-		while (true) {
+		while (true) { //while 반복문
 			
 			for (int i = 0; i < game.length; i++) {
 				System.out.print(game[i] + " ");

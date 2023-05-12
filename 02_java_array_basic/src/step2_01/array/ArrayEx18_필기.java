@@ -57,51 +57,7 @@ public class ArrayEx18_필기 {
 
 		int win2 = 0;
 		
-		while (true) {
-			for (int i = 0; i < game.length; i++) {
-				System.out.print(game[i] + " ");
-			}
-			System.out.println();
-			
-			for (int i = 0; i < p1.length; i++) {
-				System.out.print(p1[i] + " ");
-			}
-			System.out.print("[" + win1 + "바퀴.]");
-			System.out.println();
-			
-			for (int i = 0; i < p2.length; i++) {
-				System.out.print(p2[i] + " ");
-			}
-			System.out.print("[" + win2 + "바퀴.]");
-			System.out.println();
-			
-			if (turn % 2 == 0) {
-				System.out.println("[p1 사용자] 1~3 입력 : ");
-				int move = scan.nextInt();
-				
-				p1[idx1] = 0;
-				idx1 = idx1 + move;
-				
-				if (idx1 >= 8) {
-					win1++;
-				}
-				idx1 = idx1 % 8;
-				
-				p1[idx1] =1;
-			}
-			else if (turn % 2 == 1) {
-				int move = ran.nextInt(3)+1;
-				System.out.print("[p2 사용자] 1~3 입력 : ");
-				System.out.println();
-				
-				p2[idx2] = 0;
-				idx2 = idx2 + move;
-			}
-			
-			
-			
-			
-		}
+		
 		
 	}
 }

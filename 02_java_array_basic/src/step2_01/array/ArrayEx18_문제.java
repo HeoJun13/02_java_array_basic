@@ -33,23 +33,7 @@ import java.util.Scanner;
 public class ArrayEx18_문제 {
 
 	public static void main(String[] args) {
-		
-		Scanner scan = new Scanner(System.in);
-		
-		int[] game = {1, 2, 3, 4, 5, 6, 7, 8};
-		int[] p1   = {0, 0, 0, 0, 0, 0, 0, 0};
-		int[] p2   = {0, 0, 0, 0, 0, 0, 0, 0};
-		
-		int turn = 0;
-		
-		int idx1 = 0;	
-		int idx2 = 0;
-		
-		p1[idx1] = 1;	
-		p2[idx2] = 2;
-		
-		int win1 = 0;	
-		int win2 = 0;					
+					
 		
 	}
 }
